@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.2092
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PL", "PL\PL.csproj", "{50487C03-90E7-4501-8FE4-9D63C3BEDFB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{15ADE153-54BD-4FB0-B181-8B45C99E810C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iTools", "iTools\iTools.csproj", "{DABE9BFD-EB36-425C-87F0-4731F34F2A5A}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50487C03-90E7-4501-8FE4-9D63C3BEDFB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50487C03-90E7-4501-8FE4-9D63C3BEDFB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50487C03-90E7-4501-8FE4-9D63C3BEDFB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50487C03-90E7-4501-8FE4-9D63C3BEDFB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15ADE153-54BD-4FB0-B181-8B45C99E810C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15ADE153-54BD-4FB0-B181-8B45C99E810C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15ADE153-54BD-4FB0-B181-8B45C99E810C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15ADE153-54BD-4FB0-B181-8B45C99E810C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DABE9BFD-EB36-425C-87F0-4731F34F2A5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DABE9BFD-EB36-425C-87F0-4731F34F2A5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DABE9BFD-EB36-425C-87F0-4731F34F2A5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DABE9BFD-EB36-425C-87F0-4731F34F2A5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
